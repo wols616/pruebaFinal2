@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wilber\\OneDrive\\Desktop\\pruebaFinal2\\pruebaFinal2\\pruebaFinal2.csproj": {}
+    "C:\\Users\\skysa\\Desktop\\wilii\\pruebaFinal2\\pruebaFinal2\\pruebaFinal2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wilber\\OneDrive\\Desktop\\pruebaFinal2\\pruebaFinal2\\pruebaFinal2.csproj": {
+    "C:\\Users\\skysa\\Desktop\\wilii\\pruebaFinal2\\pruebaFinal2\\pruebaFinal2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wilber\\OneDrive\\Desktop\\pruebaFinal2\\pruebaFinal2\\pruebaFinal2.csproj",
+        "projectUniqueName": "C:\\Users\\skysa\\Desktop\\wilii\\pruebaFinal2\\pruebaFinal2\\pruebaFinal2.csproj",
         "projectName": "pruebaFinal2",
-        "projectPath": "C:\\Users\\wilber\\OneDrive\\Desktop\\pruebaFinal2\\pruebaFinal2\\pruebaFinal2.csproj",
-        "packagesPath": "C:\\Users\\wilber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wilber\\OneDrive\\Desktop\\pruebaFinal2\\pruebaFinal2\\obj\\",
+        "projectPath": "C:\\Users\\skysa\\Desktop\\wilii\\pruebaFinal2\\pruebaFinal2\\pruebaFinal2.csproj",
+        "packagesPath": "C:\\Users\\skysa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skysa\\Desktop\\wilii\\pruebaFinal2\\pruebaFinal2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\wilber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\skysa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,20 +43,13 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.2, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -78,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
